@@ -6,16 +6,16 @@
 /*   By: fportalo <fportalo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/12 12:40:06 by fportalo          #+#    #+#             */
-/*   Updated: 2020/01/05 12:28:24 by fportalo         ###   ########.fr       */
+/*   Updated: 2021/06/29 16:01:27 by fportalo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char			*ft_strnstr(const char *str, const char *n, size_t len)
+char	*ft_strnstr(const char *str, const char *n, size_t len)
 {
-	int			i;
-	int			j;
+	int	i;
+	int	j;
 
 	i = 0;
 	j = 0;

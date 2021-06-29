@@ -6,7 +6,7 @@
 /*   By: fportalo <fportalo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/25 17:04:58 by fportalo          #+#    #+#             */
-/*   Updated: 2019/11/29 16:53:03 by fportalo         ###   ########.fr       */
+/*   Updated: 2021/06/29 16:19:02 by fportalo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	while (n > 0)

@@ -6,7 +6,7 @@
 /*   By: fportalo <fportalo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/22 12:49:45 by fportalo          #+#    #+#             */
-/*   Updated: 2019/11/29 18:00:42 by fportalo         ###   ########.fr       */
+/*   Updated: 2021/06/29 16:01:07 by fportalo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 char	*ft_strrchr(const char *str, int c)
 {
-	int count;
+	int	count;
 
 	count = ft_strlen(str) - 1;
 	if (c == '\0')

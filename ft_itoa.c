@@ -6,17 +6,17 @@
 /*   By: fportalo <fportalo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/16 16:29:00 by fportalo          #+#    #+#             */
-/*   Updated: 2019/12/16 16:29:07 by fportalo         ###   ########.fr       */
+/*   Updated: 2021/06/29 16:18:35 by fportalo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static char		*ft_revstr(char *str)
+static char	*ft_revstr(char *str)
 {
-	char		tmp[13];
-	int			i;
-	int			j;
+	char	tmp[13];
+	int		i;
+	int		j;
 
 	i = 0;
 	j = ft_strlen(str) - 1;
@@ -36,7 +36,7 @@ static char		*ft_revstr(char *str)
 	return (str);
 }
 
-char			*ft_itoa(int n)
+char	*ft_itoa(int n)
 {
 	char		tmp[12];
 	char		*rtmp;

@@ -6,7 +6,7 @@
 /*   By: fportalo <fportalo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/06 13:27:50 by fportalo          #+#    #+#             */
-/*   Updated: 2019/12/10 19:36:41 by fportalo         ###   ########.fr       */
+/*   Updated: 2021/06/29 16:00:26 by fportalo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	if (len != 0)
 	{
 		while (s1[start + len - 1]
-				&& ft_strchr(set, s1[start + len - 1]) != NULL)
+			&& ft_strchr(set, s1[start + len - 1]) != NULL)
 			len--;
 	}
 	else

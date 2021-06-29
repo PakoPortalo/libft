@@ -6,7 +6,7 @@
 /*   By: fportalo <fportalo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/06 14:13:35 by fportalo          #+#    #+#             */
-/*   Updated: 2019/11/26 18:11:14 by fportalo         ###   ########.fr       */
+/*   Updated: 2021/06/29 16:10:34 by fportalo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 size_t	ft_strlen(const char *s)
 {
-	int count;
+	int	count;
 
 	count = 0;
 	while (s[count] != '\0')

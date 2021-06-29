@@ -6,13 +6,13 @@
 /*   By: fportalo <fportalo@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/05 19:46:30 by fportalo          #+#    #+#             */
-/*   Updated: 2019/12/10 19:07:30 by fportalo         ###   ########.fr       */
+/*   Updated: 2021/06/29 16:11:47 by fportalo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char				*ft_strjoin(char const *s1, char const *s2)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
 	unsigned int	j;
 	unsigned int	k;
